@@ -4,6 +4,7 @@
         steps{
                   echo' I am Validating the code'
                 }
+                                 }
      stages('Compilation')
        steps{
                  echo'I am Compiling the code'
@@ -13,13 +14,13 @@
          steps{
                    echo'I am Installing the code'
                  }
-                               }
+                                 }
   
-           stage('Deploy')
-             steps{
-                       echo'I am Deploying the code'
-                      }
-                                     }
+        stage('Deploy')
+          steps{
+                    echo'I am Deploying the code'
+                  }
+                                  }
      }
 }
        
