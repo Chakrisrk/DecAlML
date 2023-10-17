@@ -5,17 +5,17 @@
                   echo' I am Validating the code'
                 }
                                  }
-     stages('Compilation')
+     stages('Compilation'){
        steps{
                  echo'I am Compiling the code'
                 }
                                   }
-       stage('Install')
+       stage('Install'){
          steps{
                    echo'I am Installing the code'
                  }
                                  }
-        stage('Deploy')
+        stage('Deploy'){
           steps{
                     echo'I am Deploying the code'
                   }
