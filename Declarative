@@ -3,10 +3,10 @@ agent any
     stages{
       stage('check validate'){
         steps{
-                  echo' I am Validating the code'
+                  echo'I am Validating the code'
                 }
                                  }
-     stages('Compilation'){
+     stage('Compilation'){
        steps{
                  echo'I am Compiling the code'
                 }
@@ -19,8 +19,8 @@ agent any
         stage('Deploy'){
           steps{
                     echo'I am Deploying the code'
-                  }
-                                  }
+              }
+                             }
      }
 }
        
